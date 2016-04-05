@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add">
+    </Button>
+ <!--   <Button
+        android:id="@+id/btnAddE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add english">
+    </Button>-->
+    <Button
+        android:id="@+id/btnExer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise">
+    </Button>
+
+    <Button
+        android:id="@+id/showAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showAll">
+    </Button>
+    <Button
+        android:id="@+id/files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="readFromFile">
+    </Button>
+
+    <Button
+        android:id="@+id/deleteRows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="deleteRows">
+    </Button>
+    <Button
+        android:id="@+id/returnWords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="returnWords">
+    </Button>
+</LinearLayout>
